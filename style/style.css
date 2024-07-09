@@ -16,7 +16,7 @@
     font-family: "Azeret Mono", monospace;
     font-size: 20px;
     font-weight: 600;
-    margin: 55px 190px 52px 0px;
+    margin: 50px 190px 52px 0px;
     padding: 17px 24px;
     color: var(--black-color);
     box-sizing: border-box;
@@ -26,3 +26,11 @@
 }
 
 /* Nav section end */
+
+/* Banner section start */
+    .banner-container {
+        background-image: url('../assets/Hero-bg.png');
+        width: 1440px;
+        height: 652px;
+    }
+/* Banner section end */
