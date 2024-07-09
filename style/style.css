@@ -1,0 +1,28 @@
+/* Nav section start */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-container h1 {
+    font-family: "Azeret Mono", monospace;
+    font-size: 28px;
+    font-weight: 800;
+    margin: 50px 0px 48px 150px;
+    color: var(--black-color);
+}
+
+.nav-container button {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 55px 190px 52px 0px;
+    padding: 17px 24px;
+    color: var(--black-color);
+    box-sizing: border-box;
+    border: 1px solid var(--black-color);
+    border-radius: 8px;
+    opacity: 0.8;
+}
+
+/* Nav section end */
