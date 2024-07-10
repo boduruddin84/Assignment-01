@@ -145,3 +145,33 @@
     margin-top: 32px;
 }
 /* Why Web Development? section end */
+
+/* My Inspiration section start */
+.my-inspiration {
+    max-width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.my-inspiration p {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.video {
+    margin-top: 48px;
+    border-radius: 16px;
+    padding: 32px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+}
+
+.video-ifame {
+    width: 1076px; 
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 16px;
+}
+/* My Inspiration section end */
