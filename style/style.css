@@ -175,3 +175,80 @@
     border-radius: 16px;
 }
 /* My Inspiration section end */
+
+/* My Current Target section start */
+.my-current-target-header-des {
+    max-width: 852px;
+    max-height: 115px;
+    margin: 0 auto;
+    margin-top: 149px;
+}
+
+.my-current-target-header-des p {
+    text-align: center;
+    margin: 24px 0px 48px 0px;
+}
+
+.my-current-targets {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-current-target {
+    max-width: 284px;
+    max-height: 220px;
+    padding: 40px;
+}
+
+.my-current-target-heading {
+    display: flex;
+    text-align: left;
+}
+
+#my-current-target {
+    margin: 0px 24px;
+}
+
+.my-current-target img {
+    max-width: 56px;
+    max-height: 56px;
+    margin-bottom: 24px;
+}
+
+.my-current-target p {
+    margin: 8px 0px 24px 0px;
+}
+
+.my-current-target button {
+    border: none;
+    background-color: none;
+}
+
+.my-current-target button a {
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    color: var(--black-color);
+}
+
+.one {
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.two {
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.three {
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+/* My Current Target section end */
+
+/* I need Support section start */
+
+
+/* I need Support section end */
