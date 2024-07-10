@@ -34,6 +34,7 @@
     justify-content: flex-start;
     align-items: center;
     background-image: url('../assets/Hero-bg.png');
+    background-size: cover;
     max-width: 1440px;
     max-height: 652px;
 }
@@ -250,5 +251,89 @@
 
 /* I need Support section start */
 
+.i-need-support-container {
+    width: 1044px;
+    height: 186px;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    padding: 64px 48px;
+    border-radius: 16px;
+    margin-top: 50px;
+    background-blend-mode: overlay;
+}
+
+.i-need-support-container h2 {
+    font-family: "Azeret Mono", monospace;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--white-color);
+}
+
+.i-need-support-container p {
+    text-align: center;
+    margin: 16px 0px 24px 0px;
+    color: var(--white-color);
+}
+
+.i-need-support-input-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.i-need-support-input {
+    width: 508px;
+    height: 19px;
+    padding: 19px 20px;
+    border-radius: 8px;
+    border: none;
+    margin-right: 16px;
+}
+
+.i-need-support-button {
+    width: 120px;
+    height: 55px;
+    padding: 17px 20px;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    border: none;
+}
+
 
 /* I need Support section end */
+
+/* footer section start */
+footer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.footer-container {
+    margin: 111px 0px 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-container h2 {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0%;
+    color: var(--black-color);
+}
+
+.social-icon {
+    font-size: 30px;
+    color: blue;
+    margin: 0px 20px 0px 0px;
+}
+
+.github-icon {
+    color: var(--black-color);
+}
+/* footer section end */
